@@ -22,7 +22,7 @@ export default function DetailProduct() {
   const handleBuy = useMutation(async (e) => {
     try {
       e.preventDefault();
-      return 0;
+      // return 0;
 
       const config = {
         headers: {
